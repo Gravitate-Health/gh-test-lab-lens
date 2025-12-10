@@ -39,7 +39,7 @@
           },
           {
             "url": "content",
-            "valueString": "Lente para la diabetes"
+            "valueString": "Lente para interacción con resultados de laboratorio"
           }
         ]
       },
@@ -52,7 +52,7 @@
           },
           {
             "url": "content",
-            "valueString": "Lente para a diabetes"
+            "valueString": "Lente para interação com resultados laboratoriais"
           }
         ]
       },
@@ -65,7 +65,7 @@
           },
           {
             "url": "content",
-            "valueString": "Linse til diabetes"
+            "valueString": "Linse til laboratorieresultat interaktion"
           }
         ]
       }
@@ -83,7 +83,7 @@
           },
           {
             "url": "content",
-            "valueString": "Lente para la diabetes"
+            "valueString": "Lente para resultados de laboratorio"
           }
         ]
       },
@@ -96,7 +96,7 @@
           },
           {
             "url": "content",
-            "valueString": "Lente para a diabetes"
+            "valueString": "Lente para resultados laboratoriais"
           }
         ]
       },
@@ -109,7 +109,7 @@
           },
           {
             "url": "content",
-            "valueString": "Linse til diabetes"
+            "valueString": "Linse til laboratorieresultater"
           }
         ]
       }
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "description": "Lens that highlight diabetes related information",
+  "description": "Lens that highlights renal dose adjustment information when patient has low eGFR (< 30) laboratory results",
   "_description": {
     "extension": [
       {
@@ -142,7 +142,7 @@
           },
           {
             "url": "content",
-            "valueString": "Lente que resalta información relacionada con la diabetes"
+            "valueString": "Lente que resalta información sobre ajuste de dosis renal cuando el paciente tiene resultados de laboratorio de eGFR bajo (< 30)"
           }
         ]
       },
@@ -155,7 +155,7 @@
           },
           {
             "url": "content",
-            "valueString": "Lente que destaca informações relacionadas com a diabetes"
+            "valueString": "Lente que destaca informações sobre ajuste de dose renal quando o paciente tem resultados laboratoriais de eGFR baixo (< 30)"
           }
         ]
       },
@@ -168,7 +168,7 @@
           },
           {
             "url": "content",
-            "valueString": "Linse der fremhæver diabetesrelaterede oplysninger"
+            "valueString": "Linse der fremhæver information om renal dosisjustering når patienten har lave eGFR (< 30) laboratorieresultater"
           }
         ]
       }
@@ -184,7 +184,7 @@
       ]
     }
   ],
-  "purpose": "Highlight diabetes related information in a preprocessed ePI.",
+  "purpose": "Highlight renal dose adjustment information in a preprocessed ePI when patient has eGFR < 30.",
   "_purpose": {
     "extension": [
       {
@@ -196,7 +196,7 @@
           },
           {
             "url": "content",
-            "valueString": "Resaltar información relacionada con la diabetes en una ePI preprocesada."
+            "valueString": "Resaltar información sobre ajuste de dosis renal en una ePI preprocesada cuando el paciente tiene eGFR < 30."
           }
         ]
       },
@@ -209,7 +209,7 @@
           },
           {
             "url": "content",
-            "valueString": "Destacar informações relacionadas com a diabetes em uma ePI pré-processada."
+            "valueString": "Destacar informações sobre ajuste de dose renal numa ePI pré-processada quando o paciente tem eGFR < 30."
           }
         ]
       },
@@ -222,7 +222,7 @@
           },
           {
             "url": "content",
-            "valueString": "Fremhæv diabetesrelaterede oplysninger i en forbehandlet ePI."
+            "valueString": "Fremhæv information om renal dosisjustering i en forbehandlet ePI når patienten har eGFR < 30."
           }
         ]
       }
@@ -283,7 +283,7 @@
   "content": [
     {
       "contentType": "application/javascript",
-      "title": "Lens for diabetes",
+      "title": "Lens for laboratory results interaction",
       "data": "bGV0IHB2RGF0YSA9IHB2OwpsZXQgaHRtbERhdGEgPSBodG1sOwoKbGV0IGVwaURhdGEgPSBlcGk7CmxldCBpcHNEYXRhID0gaXBzOwoKbGV0IGdldFNwZWNpZmljYXRpb24gPSAoKSA9PiB7CiAgICByZXR1cm4gIjIuMC4wLXJlbmFsLWFkanVzdG1lbnQiOwp9OwoKbGV0IGFubm90YXRpb25Qcm9jZXNzID0gKGxpc3RPZkNhdGVnb3JpZXMsIGVuaGFuY2VUYWcsIGRvY3VtZW50LCByZXNwb25zZSkgPT4gewogICAgbGlzdE9mQ2F0ZWdvcmllcy5mb3JFYWNoKChjaGVjaykgPT4gewogICAgICAgIGlmIChyZXNwb25zZS5pbmNsdWRlcyhjaGVjaykpIHsKICAgICAgICAgICAgbGV0IGVsZW1lbnRzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZShjaGVjayk7CiAgICAgICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgZWxlbWVudHMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgIGVsZW1lbnRzW2ldLmNsYXNzTGlzdC5hZGQoZW5oYW5jZVRhZyk7CiAgICAgICAgICAgICAgICBlbGVtZW50c1tpXS5jbGFzc0xpc3QuYWRkKCJsYWItbGVucyIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgiaGVhZCIpLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJoZWFkIilbMF0ucmVtb3ZlKCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJib2R5IikubGVuZ3RoID4gMCkgewogICAgICAgICAgICAgICAgcmVzcG9uc2UgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSgiYm9keSIpWzBdLmlubmVySFRNTDsKICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJSZXNwb25zZTogIiArIHJlc3BvbnNlKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJSZXNwb25zZTogIiArIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5pbm5lckhUTUwpOwogICAgICAgICAgICAgICAgcmVzcG9uc2UgPSBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuaW5uZXJIVE1MOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSk7CgogICAgaWYgKHJlc3BvbnNlID09IG51bGwgfHwgcmVzcG9uc2UgPT0gIiIpIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICAgICJBbm5vdGF0aW9uIHByb2NjZXNzIGZhaWxlZDogUmV0dXJuZWQgZW1wdHkgb3IgbnVsbCByZXNwb25zZSIKICAgICAgICApOwogICAgICAgIC8vcmV0dXJuIGh0bWxEYXRhCiAgICB9IGVsc2UgewogICAgICAgIGNvbnNvbGUubG9nKCJSZXNwb25zZTogIiArIHJlc3BvbnNlKTsKICAgICAgICByZXR1cm4gcmVzcG9uc2U7CiAgICB9Cn0KCgpsZXQgYW5ub3RhdGVIVE1Mc2VjdGlvbiA9IGFzeW5jIChsaXN0T2ZDYXRlZ29yaWVzLCBlbmhhbmNlVGFnKSA9PiB7CiAgICBsZXQgcmVzcG9uc2UgPSBodG1sRGF0YTsKICAgIGxldCBkb2N1bWVudDsKCiAgICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHsKICAgICAgICBsZXQganNkb20gPSBhd2FpdCBpbXBvcnQoImpzZG9tIik7CiAgICAgICAgbGV0IHsgSlNET00gfSA9IGpzZG9tOwogICAgICAgIGxldCBkb20gPSBuZXcgSlNET00oaHRtbERhdGEpOwogICAgICAgIGRvY3VtZW50ID0gZG9tLndpbmRvdy5kb2N1bWVudDsKICAgICAgICByZXR1cm4gYW5ub3RhdGlvblByb2Nlc3MobGlzdE9mQ2F0ZWdvcmllcywgZW5oYW5jZVRhZywgZG9jdW1lbnQsIHJlc3BvbnNlKTsKICAgIH0gZWxzZSB7CiAgICAgICAgZG9jdW1lbnQgPSB3aW5kb3cuZG9jdW1lbnQ7CiAgICAgICAgcmV0dXJuIGFubm90YXRpb25Qcm9jZXNzKGxpc3RPZkNhdGVnb3JpZXMsIGVuaGFuY2VUYWcsIGRvY3VtZW50LCByZXNwb25zZSk7CiAgICB9Cn07CgoKbGV0IGVuaGFuY2UgPSBhc3luYyAoKSA9PiB7CiAgICBpZiAoIWlwc0RhdGEgfHwgIWlwc0RhdGEuZW50cnkgfHwgaXBzRGF0YS5lbnRyeS5sZW5ndGggPT09IDApIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoIklQUyBpcyBlbXB0eSBvciBpbnZhbGlkLiIpOwogICAgfQoKICAgIGxldCBlbmhhbmNlVGFnID0gImhpZ2hsaWdodCI7CiAgICBsZXQgdHJpZ2dlckhpZ2hsaWdodCA9IGZhbHNlOwoKICAgIC8vIERlZmluZSBsb2dpYzogaWYgZUdGUiA8IDMwIOKGkiBoaWdobGlnaHQgPHJlbmFsIGRvc2UgYWRqdXN0bWVudD4gLSBzaG91bGQgd29yayBmb3IgZXZlcnkgZHJ1Zywgc2luY2UgdGhleSBoYXZlIHRoZSBjbGFzcwogICAgY29uc3QgZUdGUkNvZGVzID0gWyI0ODY0My0xIiwgIjMzOTE0LTMiLCAiNjIyMzgtMSJdOyAvLyBDb21tb24gTE9JTkMgY29kZXMgZm9yIGVHRlIgLSB3aGF0IHRvIGxvb2sgaW4gdGhlIElQUwoKICAgIGxldCBsaXN0T2ZDYXRlZ29yaWVzVG9TZWFyY2ggPSBbeyAiY29kZSI6ICIyMzY0MjMwMDMiLCAic3lzdGVtIjogImh0dHA6Ly9zbm9tZWQuaW5mby9zY3QiIH0sIHsgImNvZGUiOiAiNzA5MDQ0MDA0IiwgInN5c3RlbSI6ICJodHRwOi8vc25vbWVkLmluZm8vc2N0IiB9XTsgLy93aGF0IHRvIGxvb2sgaW4gZXh0ZW5zaW9ucyAtbWFkZSB1cCBjb2RlIGJlY2F1c2UgdGhlcmUgaXMgbm9uZQoKICAgIGlwc0RhdGEuZW50cnkuZm9yRWFjaCgoZW50cnkpID0+IHsKICAgICAgICBpZiAoCiAgICAgICAgICAgIGVudHJ5LnJlc291cmNlICYmCiAgICAgICAgICAgIGVudHJ5LnJlc291cmNlLnJlc291cmNlVHlwZSA9PT0gIk9ic2VydmF0aW9uIiAmJgogICAgICAgICAgICBlbnRyeS5yZXNvdXJjZS5jb2RlICYmCiAgICAgICAgICAgIGVudHJ5LnJlc291cmNlLmNvZGUuY29kaW5nICYmCiAgICAgICAgICAgIGVudHJ5LnJlc291cmNlLnZhbHVlUXVhbnRpdHkgJiYKICAgICAgICAgICAgdHlwZW9mIGVudHJ5LnJlc291cmNlLnZhbHVlUXVhbnRpdHkudmFsdWUgPT09ICJudW1iZXIiCiAgICAgICAgKSB7CiAgICAgICAgICAgIGNvbnN0IHZhbHVlID0gZW50cnkucmVzb3VyY2UudmFsdWVRdWFudGl0eS52YWx1ZTsKICAgICAgICAgICAgY29uc3QgaXNFR0ZSID0gZW50cnkucmVzb3VyY2UuY29kZS5jb2Rpbmcuc29tZSgKICAgICAgICAgICAgICAgIChjb2RpbmcpID0+CiAgICAgICAgICAgICAgICAgICAgZUdGUkNvZGVzLmluY2x1ZGVzKGNvZGluZy5jb2RlKSB8fAogICAgICAgICAgICAgICAgICAgIChjb2RpbmcuZGlzcGxheSAmJiBjb2RpbmcuZGlzcGxheS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKCJlZ2ZyIikpCiAgICAgICAgICAgICk7CgogICAgICAgICAgICBpZiAoaXNFR0ZSICYmIHZhbHVlIDwgMzApIHsKICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCJlR0ZSIDwgMzAgZGV0ZWN0ZWQ6IiwgdmFsdWUpOwogICAgICAgICAgICAgICAgdHJpZ2dlckhpZ2hsaWdodCA9IHRydWU7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9KTsKCiAgICBpZiAoIXRyaWdnZXJIaWdobGlnaHQpIHsKICAgICAgICBjb25zb2xlLndhcm4oIk5vIG1hdGNoaW5nIGVHRlIgbGFiIHJlc3VsdCA8IDMwIGZvdW5kLiIpOwogICAgICAgIHJldHVybiBodG1sRGF0YTsKICAgIH0KICAgIGNvbnNvbGUubG9nKCJlR0ZSIGxhYiByZXN1bHQgPCAzMCBmb3VuZC4iKTsKCiAgICAvLyBlUEkgdHJhc2xhdGlvbiBmcm9tIHRlcm1pbm9sb2d5IGNvZGVzIHRvIHRoZWlyIGh1bWFuIHJlZGFibGUgdHJhbnNsYXRpb25zIGluIHRoZSBzZWN0aW9ucwogICAgbGV0IGNvbXBvc2l0aW9ucyA9IDA7CiAgICBsZXQgY2F0ZWdvcmllcyA9IFtdOwogICAgZXBpLmVudHJ5LmZvckVhY2goKGVudHJ5KSA9PiB7CiAgICAgICAgaWYgKGVudHJ5LnJlc291cmNlLnJlc291cmNlVHlwZSA9PSAiQ29tcG9zaXRpb24iKSB7CiAgICAgICAgICAgIGNvbXBvc2l0aW9ucysrOwogICAgICAgICAgICAvL0l0ZXJhdGVkIHRocm91Z2ggdGhlIENvbmRpdGlvbiBlbGVtZW50IHNlYXJjaGluZyBmb3IgY29uZGl0aW9ucwogICAgICAgICAgICBlbnRyeS5yZXNvdXJjZS5leHRlbnNpb24uZm9yRWFjaCgoZWxlbWVudCkgPT4gewoKICAgICAgICAgICAgICAgIC8vIENoZWNrIGlmIHRoZSBwb3NpdGlvbiBvZiB0aGUgZXh0ZW5zaW9uWzFdIGlzIGNvcnJlY3QKICAgICAgICAgICAgICAgIGlmIChlbGVtZW50LmV4dGVuc2lvblsxXS51cmwgPT0gImNvbmNlcHQiKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gU2VhcmNoIHRocm91Z2ggdGhlIGRpZmZlcmVudCB0ZXJtaW5vbG9naWVzIHRoYXQgbWF5IGJlIGF2YWlibGUgdG8gY2hlY2sgaW4gdGhlIGNvbmRpdGlvbgogICAgICAgICAgICAgICAgICAgIGlmIChlbGVtZW50LmV4dGVuc2lvblsxXS52YWx1ZUNvZGVhYmxlUmVmZXJlbmNlLmNvbmNlcHQgIT0gdW5kZWZpbmVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnQuZXh0ZW5zaW9uWzFdLnZhbHVlQ29kZWFibGVSZWZlcmVuY2UuY29uY2VwdC5jb2RpbmcuZm9yRWFjaCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIChjb2RpbmcpID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiRXh0ZW5zaW9uOiAiICsgZWxlbWVudC5leHRlbnNpb25bMF0udmFsdWVTdHJpbmcgKyAiOiIgKyBjb2RpbmcuY29kZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBDaGVjayBpZiB0aGUgY29kZSBpcyBpbiB0aGUgbGlzdCBvZiBjYXRlZ29yaWVzIHRvIHNlYXJjaAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChsaXN0T2ZDYXRlZ29yaWVzVG9TZWFyY2guc29tZShpdGVtID0+IGl0ZW0uY29kZSA9PT0gY29kaW5nLmNvZGUgJiYgaXRlbS5zeXN0ZW0gPT09IGNvZGluZy5zeXN0ZW0pKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENoZWNrIGlmIHRoZSBjYXRlZ29yeSBpcyBhbHJlYWR5IGluIHRoZSBsaXN0IG9mIGNhdGVnb3JpZXMKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2F0ZWdvcmllcy5wdXNoKGVsZW1lbnQuZXh0ZW5zaW9uWzBdLnZhbHVlU3RyaW5nKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsKICAgICAgICB9CiAgICB9KTsKICAgIGlmIChjb21wb3NpdGlvbnMgPT0gMCkgewogICAgICAgIHRocm93IG5ldyBFcnJvcignQmFkIGVQSTogbm8gY2F0ZWdvcnkgIkNvbXBvc2l0aW9uIiBmb3VuZCcpOwogICAgfQogICAgY29uc29sZS5sb2coY2F0ZWdvcmllcyk7CiAgICBpZiAoY2F0ZWdvcmllcy5sZW5ndGggPT0gMCkgewogICAgICAgIC8vIHRocm93IG5ldyBFcnJvcigiTm8gY2F0ZWdvcmllcyBmb3VuZCIsIGNhdGVnb3JpZXMpOwogICAgICAgIGNvbnNvbGUubG9nKCJObyBjYXRlZ29yeSBGb3VuZDogcmV0dXJuaW4gYXMgaXMuIikKICAgICAgICByZXR1cm4gaHRtbERhdGE7CiAgICB9CiAgICByZXR1cm4gYXdhaXQgYW5ub3RhdGVIVE1Mc2VjdGlvbihjYXRlZ29yaWVzLCBlbmhhbmNlVGFnKTsKfTsKCnJldHVybiB7CiAgICBlbmhhbmNlOiBlbmhhbmNlLAogICAgZ2V0U3BlY2lmaWNhdGlvbjogZ2V0U3BlY2lmaWNhdGlvbiwKfTsK",
       "_title": {
         "extension": [
@@ -296,7 +296,7 @@
               },
               {
                 "url": "content",
-                "valueString": "Lente para la diabetes"
+                "valueString": "Lente para interacción con resultados de laboratorio"
               }
             ]
           },
@@ -309,7 +309,7 @@
               },
               {
                 "url": "content",
-                "valueString": "Lente para a diabetes"
+                "valueString": "Lente para interação com resultados laboratoriais"
               }
             ]
           },
@@ -322,7 +322,7 @@
               },
               {
                 "url": "content",
-                "valueString": "Linse til diabetes"
+                "valueString": "Linse til laboratorieresultat interaktion"
               }
             ]
           }
